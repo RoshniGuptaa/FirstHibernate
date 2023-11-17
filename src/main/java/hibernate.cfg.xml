@@ -14,6 +14,8 @@
           <property name="show_sql">true</property>
           <mapping class="mavenOne.FirstHibernate.Student"/>
           <mapping class="mavenOne.FirstHibernate.Address"/>
+          <mapping class="mavenOne.FirstHibernate.Mapping.Question"/>
+          <mapping class="mavenOne.FirstHibernate.Mapping.Answer"/>
          
     </session-factory>
 </hibernate-configuration>
